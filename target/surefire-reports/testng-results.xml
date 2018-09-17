@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="38" total="39" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Logged in the Application<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8884" started-at="2018-09-14T10:30:51Z" finished-at="2018-09-14T10:31:00Z">
+    <groups>
+      <group name="Sprint6">
+        <method signature="CreateCorporateTestSuite.verifyFacilityCreateLayout()[pri:1, instance:com.sentinel.test.CreateCorporateTestSuite@37d31475]" name="verifyFacilityCreateLayout" class="com.sentinel.test.CreateCorporateTestSuite"/>
+      </group> <!-- Sprint6 -->
+    </groups>
+    <test name="Login Page test Cases" duration-ms="4" started-at="2018-09-14T10:30:51Z" finished-at="2018-09-14T10:30:51Z">
+    </test> <!-- Login Page test Cases -->
+    <test name="Create facility Form Test Cases" duration-ms="0" started-at="2018-09-14T10:30:51Z" finished-at="2018-09-14T10:30:51Z">
+    </test> <!-- Create facility Form Test Cases -->
+    <test name="Verify Address Functionality Test Cases" duration-ms="1" started-at="2018-09-14T10:30:51Z" finished-at="2018-09-14T10:30:51Z">
+    </test> <!-- Verify Address Functionality Test Cases -->
+    <test name="Verify Contact Functionality Test Cases" duration-ms="1" started-at="2018-09-14T10:30:51Z" finished-at="2018-09-14T10:30:51Z">
+    </test> <!-- Verify Contact Functionality Test Cases -->
+    <test name="Verify Department Management Functionality Test Cases" duration-ms="0" started-at="2018-09-14T10:30:51Z" finished-at="2018-09-14T10:30:51Z">
+    </test> <!-- Verify Department Management Functionality Test Cases -->
+    <test name="Verify Create Corporate Test Cases" duration-ms="8818" started-at="2018-09-14T10:30:51Z" finished-at="2018-09-14T10:31:00Z">
+      <class name="com.sentinel.test.CreateCorporateTestSuite">
+        <test-method status="PASS" signature="DriversetUp()[pri:0, instance:com.sentinel.test.CreateCorporateTestSuite@37d31475]" name="DriversetUp" is-config="true" duration-ms="9843" started-at="2018-09-14T16:00:41Z" finished-at="2018-09-14T16:00:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriversetUp -->
+        <test-method status="PASS" signature="verifyFacilityCreateLayout()[pri:1, instance:com.sentinel.test.CreateCorporateTestSuite@37d31475]" name="verifyFacilityCreateLayout" duration-ms="8807" started-at="2018-09-14T16:00:51Z" description="Verifing All the page elements with position and default values." finished-at="2018-09-14T16:01:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in the Application<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyFacilityCreateLayout -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.sentinel.test.CreateCorporateTestSuite@37d31475]" name="teardownTest" is-config="true" duration-ms="709" started-at="2018-09-14T16:01:00Z" finished-at="2018-09-14T16:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- com.sentinel.test.CreateCorporateTestSuite -->
+    </test> <!-- Verify Create Corporate Test Cases -->
+  </suite> <!-- Suite -->
+</testng-results>
